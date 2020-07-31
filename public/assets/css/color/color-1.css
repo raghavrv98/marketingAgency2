@@ -1,0 +1,61 @@
+::-moz-selection {
+    background: #f36
+}
+
+::selection {
+    background: #f36
+}
+
+h1 span,
+a:hover,
+.features-icon-img,
+.filtering a:hover, .filtering a.active,
+.team-item .team-info .socials li a:hover,
+.testimonials span,
+.blog-wrapper .blog-meta span a:hover,
+.blog-wrapper a:hover,
+.ourservice-item:hover .service-icon, 
+.btn-link,  
+.text-color-primary,
+.header-navbar .navbar-nav .nav-link.active, 
+.owl-prev:hover, .owl-next:hover,.btn-style-one:hover {
+    color: #f36;
+}
+
+.bg-primery,
+.btn-themes,
+.header-navbar .navbar-nav .nav-link:before,
+.owl-dots .owl-dot.active,
+.owl-dots .owl-dot:hover,
+.back-to-top:hover,
+.colorSwitcher .control,
+.ourservice-item::after, 
+.blog-pagination .page-item .page-link:hover, 
+.blog-pagination .page-item.active .page-link,
+.blog-post-tag>a:hover,  
+.tagcloud a:hover,
+.testimonials::after, footer .social_icons a:hover  {
+    background-color: #f36;
+}
+
+
+
+.btn-themes,
+.owl-dots .owl-dot.active,
+.filtering a:hover, 
+.filtering a.active,
+.form-control:focus,
+.testimonials,
+.blog-post-tag>a:hover, 
+.tagcloud a:hover,
+.features-wrapper{
+    border-color: #f36;
+}
+
+.blog-meta span.text-color-primary{
+    color: #d22752;
+}
+
+.load-circle{
+    border-top-color: #f36;
+}

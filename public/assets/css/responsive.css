@@ -1,0 +1,97 @@
+/*========================================================================
+EXCLUSIVE ON themeforest.net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Template Name   : Radley - One Page HTML Template
+Author          : Ashok Prajapati
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Copyright (c) 2018 - Asok prajapati
+========================================================================*/
+
+@media (max-width:991px) {
+    /**==================== header  ======================**/
+    .navbar-brand{
+        font-size: 22px;
+    }
+    .header-navbar {
+        padding-top: 18px;
+        padding-bottom: 18px; 
+        background: rgba(0,0,0,0.9);
+        position: absolute;      
+    }
+    .header-navbar::after {
+        top: 0
+    }
+    .header-navbar .navbar-nav{
+        padding-top:15px;
+    }
+    .header-navbar .navbar-nav>li{
+        margin: 0;
+    }
+    .header-navbar .navbar-nav .nav-link{
+        padding: 4px 0;
+        margin: 10px 0; 
+    }
+    .header-navbar .navbar-nav .nav-link:before {
+        display: none;
+    }
+    .navbar-expand-lg>.container, 
+    .navbar-expand-lg>.container-fluid{
+         padding-left: 15px; padding-right: 15px;
+    }
+    .banner .full-screen  {
+        padding-top:60px;
+    }
+    
+    /**==================== Button And Preset  ======================**/
+    .btn.btn-lg{ 
+        padding: 14px 30px;
+    }
+    .section{
+        padding-top: 80px;
+        padding-bottom:80px
+    }
+   
+    /**====================Banner,  Counter And testimonials  ======================**/
+    .blog-cover { padding: 120px 0 60px}
+    .counterbox .box {
+        padding: 20px 10px 50px;
+        min-height: auto
+    }
+    .testimonials{ padding: 50px 20px}
+}
+
+/*==== Mobile css ====*/
+@media (max-width: 767px) {
+    /**==================== Button And Preset  ======================**/
+    .section{
+        padding-top: 40px;
+        padding-bottom:40px
+    }
+  
+    /**==================== Button And Header  ======================**/
+    .navbar-brand{
+        font-size: 22px;
+    }
+    .btn.btn-lg{ 
+        padding: 12px 24px; 
+        margin: 2px;
+    }
+
+    /**==================== Banner And Testimonials  ======================**/
+    .banner { font-size: 14px;}
+    .banner p{ font-size: 18px; line-height: 1.6}
+    .banner h1{ font-size: 40px; margin-bottom: 10px;}    
+    .owl-dots .owl-dot{ margin: 0 8px;}
+    .blog-cover { padding: 100px 0 40px}
+
+    .testimonials{ padding: 40px 20px}
+    .testimonials .testimonialImg {  margin-bottom: 25px}
+    .testimonials .clientinfo { padding-top: 15px }    
+    .service-icon{ margin: 30px auto;}
+}
+@media (max-width: 575px) {
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid{
+        padding-left:0px; padding-right: 0px;
+    }
+}
